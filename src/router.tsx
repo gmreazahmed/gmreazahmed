@@ -1,3 +1,4 @@
+import { lazy } from "react";
 import { createRouter, useRouter } from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
 
@@ -54,13 +55,16 @@ function DefaultErrorComponent({ error, reset }: { error: Error; reset: () => vo
   );
 }
 
+// Newer TanStack Router versions type error routes as lazy components.
+const LazyErrorComponent = lazy(() => Promise.resolve({ default: DefaultErrorComponent }));
+
 export const getRouter = () => {
   const router = createRouter({
     routeTree,
     context: {},
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
-    defaultErrorComponent: DefaultErrorComponent,
+    defaultErrorComponent: LazyErrorComponent,
   });
 
   return router;
