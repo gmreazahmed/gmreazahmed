@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, Github, Mail, Code2, Sparkles, Search, Rocket } from "lucide-react";
+import { ArrowRight, Mail, Code2, Sparkles, Search, Rocket, MessageCircle } from "lucide-react";
 import portrait from "@/assets/reaz-portrait.jpg";
 
 export function Hero() {
@@ -38,12 +38,12 @@ export function Hero() {
               <Mail size={16} /> Contact Me
             </Link>
             <a
-              href="https://github.com"
+              href="https://wa.me/8801400837307"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-md border border-border hover:border-neon hover:text-neon transition-colors font-medium"
             >
-              <Github size={16} /> GitHub
+              <MessageCircle size={16} /> WhatsApp
             </a>
           </div>
 

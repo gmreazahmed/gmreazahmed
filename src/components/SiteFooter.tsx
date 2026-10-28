@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Facebook, Instagram, Twitter, Send, MessageCircle, Mail } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 
 export function SiteFooter() {
@@ -24,17 +24,23 @@ export function SiteFooter() {
         </div>
         <div>
           <h4 className="text-sm font-semibold mb-3">Connect</h4>
-          <div className="flex gap-3">
-            <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon transition-colors">
-              <Github size={18} />
+          <div className="flex flex-wrap gap-3">
+            <a href="https://facebook.com/gmreazahmed" target="_blank" rel="noreferrer" aria-label="Facebook" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon transition-colors">
+              <Facebook size={18} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon transition-colors">
-              <Linkedin size={18} />
+            <a href="https://instagram.com/gmreazahmed" target="_blank" rel="noreferrer" aria-label="Instagram" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon transition-colors">
+              <Instagram size={18} />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon transition-colors">
+            <a href="https://x.com/gmreazahmed" target="_blank" rel="noreferrer" aria-label="X (Twitter)" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon transition-colors">
               <Twitter size={18} />
             </a>
-            <a href="mailto:hello@gmreaz.dev" aria-label="Email" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon transition-colors">
+            <a href="https://wa.me/8801400837307" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon transition-colors">
+              <MessageCircle size={18} />
+            </a>
+            <a href="https://t.me/gmreazahmed" target="_blank" rel="noreferrer" aria-label="Telegram" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon transition-colors">
+              <Send size={18} />
+            </a>
+            <a href="mailto:gmreazahmed@gmail.com" aria-label="Email" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon transition-colors">
               <Mail size={18} />
             </a>
           </div>

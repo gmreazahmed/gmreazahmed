@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { useState } from "react";
-import { Mail, MapPin, Send, Github, Linkedin, Twitter, Download } from "lucide-react";
+import { Mail, MapPin, Send, Phone, Facebook, Instagram, Twitter, MessageCircle, Download } from "lucide-react";
 import { z } from "zod";
 
 export const Route = createFileRoute("/contact")({
@@ -60,21 +60,36 @@ function ContactPage() {
             <div className="rounded-xl border border-border bg-card p-5">
               <Mail size={18} className="text-neon mb-2" />
               <div className="text-sm font-medium">Email</div>
-              <a href="mailto:hello@gmreaz.dev" className="text-sm text-muted-foreground hover:text-neon">
-                hello@gmreaz.dev
+              <a href="mailto:gmreazahmed@gmail.com" className="text-sm text-muted-foreground hover:text-neon block">
+                gmreazahmed@gmail.com
+              </a>
+              <a href="mailto:gmreazahmed@yahoo.com" className="text-sm text-muted-foreground hover:text-neon block">
+                gmreazahmed@yahoo.com
+              </a>
+            </div>
+            <div className="rounded-xl border border-border bg-card p-5">
+              <Phone size={18} className="text-neon mb-2" />
+              <div className="text-sm font-medium">Phone / WhatsApp</div>
+              <a href="tel:+8801400837307" className="text-sm text-muted-foreground hover:text-neon block">
+                01400837307
+              </a>
+              <a href="tel:+8801700837307" className="text-sm text-muted-foreground hover:text-neon block">
+                01700837307
               </a>
             </div>
             <div className="rounded-xl border border-border bg-card p-5">
               <MapPin size={18} className="text-neon mb-2" />
               <div className="text-sm font-medium">Location</div>
-              <div className="text-sm text-muted-foreground">Remote · GMT+6</div>
+              <div className="text-sm text-muted-foreground">Kaliganj, Satkhira, Bangladesh</div>
             </div>
             <div className="rounded-xl border border-border bg-card p-5">
               <div className="text-sm font-medium mb-3">Social</div>
-              <div className="flex gap-3">
-                <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon"><Github size={16} /></a>
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon"><Linkedin size={16} /></a>
-                <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon"><Twitter size={16} /></a>
+              <div className="flex flex-wrap gap-3">
+                <a href="https://facebook.com/gmreazahmed" target="_blank" rel="noreferrer" aria-label="Facebook" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon"><Facebook size={16} /></a>
+                <a href="https://instagram.com/gmreazahmed" target="_blank" rel="noreferrer" aria-label="Instagram" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon"><Instagram size={16} /></a>
+                <a href="https://x.com/gmreazahmed" target="_blank" rel="noreferrer" aria-label="X (Twitter)" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon"><Twitter size={16} /></a>
+                <a href="https://wa.me/8801400837307" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon"><MessageCircle size={16} /></a>
+                <a href="https://t.me/gmreazahmed" target="_blank" rel="noreferrer" aria-label="Telegram" className="p-2 rounded-md border border-border hover:border-neon hover:text-neon"><Send size={16} /></a>
               </div>
             </div>
             <a href="/resume.pdf" className="inline-flex items-center gap-2 px-4 py-2.5 rounded-md border border-border hover:border-neon hover:text-neon w-full justify-center">
