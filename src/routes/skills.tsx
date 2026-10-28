@@ -91,7 +91,7 @@ function SkillsPage() {
             rel="noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 text-sm rounded-md border border-border hover:border-neon hover:text-neon"
           >
-            <Github size={16} /> @gmreaz
+            <Github size={16} /> @gmreazahmed
           </a>
         </div>
 
