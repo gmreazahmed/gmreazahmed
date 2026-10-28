@@ -86,7 +86,7 @@ function SkillsPage() {
             <h2 className="text-3xl font-bold">GitHub Contributions</h2>
           </div>
           <a
-            href="https://github.com"
+            href="https://github.com/gmreazahmed"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 text-sm rounded-md border border-border hover:border-neon hover:text-neon"
@@ -117,7 +117,7 @@ function SkillsPage() {
           {repos.map((r) => (
             <a
               key={r.name}
-              href="https://github.com"
+              href="https://github.com/gmreazahmed"
               target="_blank"
               rel="noreferrer"
               className="rounded-xl border border-border bg-card p-5 hover:border-neon/60 transition-colors block"

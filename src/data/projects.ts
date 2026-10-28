@@ -17,7 +17,7 @@ export const projects: Project[] = [
     tags: ["React", "TypeScript", "Tailwind", "Supabase"],
     category: "Web App",
     demo: "https://example.com",
-    repo: "https://github.com",
+    repo: "https://github.com/gmreazahmed",
     accent: "from-emerald-500 to-lime-400",
   },
   {
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     tags: ["Next.js", "SEO", "Node", "Postgres"],
     category: "Marketing",
     demo: "https://example.com",
-    repo: "https://github.com",
+    repo: "https://github.com/gmreazahmed",
     accent: "from-cyan-500 to-emerald-400",
   },
   {
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     tags: ["React", "Shopify", "GraphQL", "CRO"],
     category: "E-commerce",
     demo: "https://example.com",
-    repo: "https://github.com",
+    repo: "https://github.com/gmreazahmed",
     accent: "from-fuchsia-500 to-emerald-400",
   },
   {
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     tags: ["Marketing", "Analytics", "API"],
     category: "Marketing",
     demo: "https://example.com",
-    repo: "https://github.com",
+    repo: "https://github.com/gmreazahmed",
     accent: "from-amber-400 to-emerald-400",
   },
   {
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     tags: ["Open Source", "React", "Tailwind"],
     category: "Open Source",
     demo: "https://example.com",
-    repo: "https://github.com",
+    repo: "https://github.com/gmreazahmed",
     accent: "from-emerald-400 to-teal-400",
   },
   {
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     tags: ["Next.js", "MDX", "SEO"],
     category: "Open Source",
     demo: "https://example.com",
-    repo: "https://github.com",
+    repo: "https://github.com/gmreazahmed",
     accent: "from-lime-400 to-green-500",
   },
 ];
